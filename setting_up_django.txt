@@ -1,0 +1,4 @@
+1. pip install django
+2. pip install django_rest_framework
+3. django-admin startproject <projectname> . #make sure to include the full stop inorder to avoid a nested directory structure
+3. python manage.py runserver #this starts the django project
