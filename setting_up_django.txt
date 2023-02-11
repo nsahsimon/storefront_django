@@ -2,3 +2,10 @@
 2. pip install django_rest_framework
 3. django-admin startproject <projectname> . #make sure to include the full stop inorder to avoid a nested directory structure
 3. python manage.py runserver #this starts the django project
+4. launch the url found in the terminal
+5. python manage.py startapp <app_name> #This line creates a new application
+
+note: Anytime a new application is created, make sure to add it to the list of installed apps. in the settings.py file
+6. Create a "urls.py" file to store all urls 
+
+note: each view must be mapped to a particular url
